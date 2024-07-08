@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: beige;
+}
+.mainall{
+    display: flex;
+    padding:10px 20px 20px 10px;
+}
+.leftdash{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.logoimg{
+    margin-bottom: 20px;
+}
+.userinfo{
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.photo img{
+    width: 100%;
+    
+}
+h2{
+    font-size: 14px;
+    color: #727272;
+    font-weight: 100;
+}
+h1{
+    font-size: 24px;
+    color: #169D24;
+}
+.logout{
+    margin-top:20px;
+    cursor: pointer;
+}
+#ticketcard{
+    width: 310px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    align-items: self-start;
+    display: none;
+}
+.rightdash{
+    margin-top: 20px;
+}
+button{
+    background-color: #169D24;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+input{
+    padding:10px;
+    background: #E2E2E2;
+    border-radius: 5px;
+    border: none;
+}
+.logo img{
+    height:100px;
+}
+.logoimg{
+    height:100px;
+}
+#qrcode img{
+    height:150px;
+}
+@media(max-width:800px){
+    .mainall{
+        padding:10px 5px 20px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+}
